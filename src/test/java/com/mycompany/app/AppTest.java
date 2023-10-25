@@ -20,6 +20,6 @@ public class AppTest
     public void testAppMessage()
     {
         App app = new App();
-        assertEquals("Hello World!. Ini adalah aplikasi Java Maven sederhana untuk Submission Dicoding Belajar Implementasi CI/CD. Jenkins Pipeline telah berhasil diimplementasikan by Ibnu Azam Alfansuri.", app.getMessage());
+        assertEquals("Hello World! Ini adalah aplikasi Java Maven sederhana untuk Submission Dicoding Belajar Implementasi CI/CD. Jenkins Pipeline telah berhasil diimplementasikan by Ibnu Azam Alfansuri.", app.getMessage());
     }
 }

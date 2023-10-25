@@ -5,7 +5,7 @@ package com.mycompany.app;
  */
 public class App {
 
-    private static final String MESSAGE = "Hello World!. Ini adalah aplikasi Java Maven sederhana untuk Submission Dicoding Belajar Implementasi CI/CD. Jenkins Pipeline telah berhasil diimplementasikan by Ibnu Azam Alfansuri.";
+    private static final String MESSAGE = "Hello World! Ini adalah aplikasi Java Maven sederhana untuk Submission Dicoding Belajar Implementasi CI/CD. Jenkins Pipeline telah berhasil diimplementasikan by Ibnu Azam Alfansuri.";
 
     public App() {}
 
