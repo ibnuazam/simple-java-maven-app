@@ -24,17 +24,3 @@ echo 'The following command runs and outputs the execution of your Java'
 echo 'application (which Jenkins built using Maven) to the Jenkins UI.'
 set -x
 java -jar target/${NAME}-${VERSION}.jar
-
-echo 'The following command pause the execution of your shell script for 60'
-echo 'seconds. This is to give you time to inspect the output of the previous'
-echo 'command before Jenkins destroys the Docker container running your Java'
-echo 'application.'
-set -x
-sleep 60
-set +x
-
-echo 'The following command stops the Docker container running your Java'
-echo 'application.'
-set -x
-docker stop maven-repository
-set +x
